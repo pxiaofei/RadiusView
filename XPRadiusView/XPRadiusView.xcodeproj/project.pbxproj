@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBAA70C01B8D9B4900376A5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA70BF1B8D9B4900376A5D /* main.m */; };
+		FBAA70C31B8D9B4900376A5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA70C21B8D9B4900376A5D /* AppDelegate.m */; };
+		FBAA70C61B8D9B4900376A5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA70C51B8D9B4900376A5D /* ViewController.m */; };
+		FBAA70C91B8D9B4900376A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAA70C71B8D9B4900376A5D /* Main.storyboard */; };
+		FBAA70CB1B8D9B4900376A5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBAA70CA1B8D9B4900376A5D /* Images.xcassets */; };
+		FBAA70CE1B8D9B4900376A5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBAA70CC1B8D9B4900376A5D /* LaunchScreen.xib */; };
+		FBAA70DA1B8D9B4900376A5D /* XPRadiusViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA70D91B8D9B4900376A5D /* XPRadiusViewTests.m */; };
+		FBAA70E61B8D9BAF00376A5D /* YFRadisuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAA70E51B8D9BAF00376A5D /* YFRadisuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBAA70D41B8D9B4900376A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBAA70B21B8D9B4900376A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBAA70B91B8D9B4900376A5D;
+			remoteInfo = XPRadiusView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBAA70BA1B8D9B4900376A5D /* XPRadiusView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPRadiusView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAA70BE1B8D9B4900376A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAA70BF1B8D9B4900376A5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBAA70C11B8D9B4900376A5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBAA70C21B8D9B4900376A5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBAA70C41B8D9B4900376A5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBAA70C51B8D9B4900376A5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBAA70C81B8D9B4900376A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBAA70CA1B8D9B4900376A5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBAA70CD1B8D9B4900376A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FBAA70D31B8D9B4900376A5D /* XPRadiusViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPRadiusViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAA70D81B8D9B4900376A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBAA70D91B8D9B4900376A5D /* XPRadiusViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPRadiusViewTests.m; sourceTree = "<group>"; };
+		FBAA70E41B8D9BAF00376A5D /* YFRadisuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFRadisuView.h; sourceTree = "<group>"; };
+		FBAA70E51B8D9BAF00376A5D /* YFRadisuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFRadisuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBAA70B71B8D9B4900376A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAA70D01B8D9B4900376A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBAA70B11B8D9B4900376A5D = {
+			isa = PBXGroup;
+			children = (
+				FBAA70BC1B8D9B4900376A5D /* XPRadiusView */,
+				FBAA70D61B8D9B4900376A5D /* XPRadiusViewTests */,
+				FBAA70BB1B8D9B4900376A5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBAA70BB1B8D9B4900376A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA70BA1B8D9B4900376A5D /* XPRadiusView.app */,
+				FBAA70D31B8D9B4900376A5D /* XPRadiusViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBAA70BC1B8D9B4900376A5D /* XPRadiusView */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA70E31B8D9B7E00376A5D /* YFRadiusView */,
+				FBAA70C11B8D9B4900376A5D /* AppDelegate.h */,
+				FBAA70C21B8D9B4900376A5D /* AppDelegate.m */,
+				FBAA70C41B8D9B4900376A5D /* ViewController.h */,
+				FBAA70C51B8D9B4900376A5D /* ViewController.m */,
+				FBAA70C71B8D9B4900376A5D /* Main.storyboard */,
+				FBAA70CA1B8D9B4900376A5D /* Images.xcassets */,
+				FBAA70CC1B8D9B4900376A5D /* LaunchScreen.xib */,
+				FBAA70BD1B8D9B4900376A5D /* Supporting Files */,
+			);
+			path = XPRadiusView;
+			sourceTree = "<group>";
+		};
+		FBAA70BD1B8D9B4900376A5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA70BE1B8D9B4900376A5D /* Info.plist */,
+				FBAA70BF1B8D9B4900376A5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBAA70D61B8D9B4900376A5D /* XPRadiusViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA70D91B8D9B4900376A5D /* XPRadiusViewTests.m */,
+				FBAA70D71B8D9B4900376A5D /* Supporting Files */,
+			);
+			path = XPRadiusViewTests;
+			sourceTree = "<group>";
+		};
+		FBAA70D71B8D9B4900376A5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA70D81B8D9B4900376A5D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBAA70E31B8D9B7E00376A5D /* YFRadiusView */ = {
+			isa = PBXGroup;
+			children = (
+				FBAA70E41B8D9BAF00376A5D /* YFRadisuView.h */,
+				FBAA70E51B8D9BAF00376A5D /* YFRadisuView.m */,
+			);
+			path = YFRadiusView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBAA70B91B8D9B4900376A5D /* XPRadiusView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAA70DD1B8D9B4900376A5D /* Build configuration list for PBXNativeTarget "XPRadiusView" */;
+			buildPhases = (
+				FBAA70B61B8D9B4900376A5D /* Sources */,
+				FBAA70B71B8D9B4900376A5D /* Frameworks */,
+				FBAA70B81B8D9B4900376A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPRadiusView;
+			productName = XPRadiusView;
+			productReference = FBAA70BA1B8D9B4900376A5D /* XPRadiusView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBAA70D21B8D9B4900376A5D /* XPRadiusViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAA70E01B8D9B4900376A5D /* Build configuration list for PBXNativeTarget "XPRadiusViewTests" */;
+			buildPhases = (
+				FBAA70CF1B8D9B4900376A5D /* Sources */,
+				FBAA70D01B8D9B4900376A5D /* Frameworks */,
+				FBAA70D11B8D9B4900376A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBAA70D51B8D9B4900376A5D /* PBXTargetDependency */,
+			);
+			name = XPRadiusViewTests;
+			productName = XPRadiusViewTests;
+			productReference = FBAA70D31B8D9B4900376A5D /* XPRadiusViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBAA70B21B8D9B4900376A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = pxiaofei;
+				TargetAttributes = {
+					FBAA70B91B8D9B4900376A5D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FBAA70D21B8D9B4900376A5D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FBAA70B91B8D9B4900376A5D;
+					};
+				};
+			};
+			buildConfigurationList = FBAA70B51B8D9B4900376A5D /* Build configuration list for PBXProject "XPRadiusView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBAA70B11B8D9B4900376A5D;
+			productRefGroup = FBAA70BB1B8D9B4900376A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBAA70B91B8D9B4900376A5D /* XPRadiusView */,
+				FBAA70D21B8D9B4900376A5D /* XPRadiusViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBAA70B81B8D9B4900376A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAA70C91B8D9B4900376A5D /* Main.storyboard in Resources */,
+				FBAA70CE1B8D9B4900376A5D /* LaunchScreen.xib in Resources */,
+				FBAA70CB1B8D9B4900376A5D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAA70D11B8D9B4900376A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBAA70B61B8D9B4900376A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAA70C61B8D9B4900376A5D /* ViewController.m in Sources */,
+				FBAA70C31B8D9B4900376A5D /* AppDelegate.m in Sources */,
+				FBAA70C01B8D9B4900376A5D /* main.m in Sources */,
+				FBAA70E61B8D9BAF00376A5D /* YFRadisuView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAA70CF1B8D9B4900376A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAA70DA1B8D9B4900376A5D /* XPRadiusViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBAA70D51B8D9B4900376A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBAA70B91B8D9B4900376A5D /* XPRadiusView */;
+			targetProxy = FBAA70D41B8D9B4900376A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBAA70C71B8D9B4900376A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBAA70C81B8D9B4900376A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBAA70CC1B8D9B4900376A5D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBAA70CD1B8D9B4900376A5D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBAA70DB1B8D9B4900376A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBAA70DC1B8D9B4900376A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBAA70DE1B8D9B4900376A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XPRadiusView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBAA70DF1B8D9B4900376A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XPRadiusView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBAA70E11B8D9B4900376A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XPRadiusViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPRadiusView.app/XPRadiusView";
+			};
+			name = Debug;
+		};
+		FBAA70E21B8D9B4900376A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XPRadiusViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XPRadiusView.app/XPRadiusView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBAA70B51B8D9B4900376A5D /* Build configuration list for PBXProject "XPRadiusView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAA70DB1B8D9B4900376A5D /* Debug */,
+				FBAA70DC1B8D9B4900376A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAA70DD1B8D9B4900376A5D /* Build configuration list for PBXNativeTarget "XPRadiusView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAA70DE1B8D9B4900376A5D /* Debug */,
+				FBAA70DF1B8D9B4900376A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBAA70E01B8D9B4900376A5D /* Build configuration list for PBXNativeTarget "XPRadiusViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAA70E11B8D9B4900376A5D /* Debug */,
+				FBAA70E21B8D9B4900376A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBAA70B21B8D9B4900376A5D /* Project object */;
+}
